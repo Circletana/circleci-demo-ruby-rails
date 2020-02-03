@@ -56,7 +56,7 @@ jobs:
           paths:
             - ~/.cache/yarn
   test:
-    parallelism: 2
+    parallelism: 3
     docker:
       - *default_docker_ruby_executor
       - *postgres
