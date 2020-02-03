@@ -20,7 +20,6 @@ references:
 
 jobs:
   build:
-  orbs:
     docker:
       - *default_docker_ruby_executor
     steps:
