@@ -20,6 +20,8 @@ references:
 
 jobs:
   build:
+  orbs:
+  codecov: codecov/codecov@1.0.5
     docker:
       - *default_docker_ruby_executor
     steps:
